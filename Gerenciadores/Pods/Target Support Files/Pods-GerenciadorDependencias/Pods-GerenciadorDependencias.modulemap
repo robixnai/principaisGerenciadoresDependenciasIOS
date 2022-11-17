@@ -1,0 +1,6 @@
+framework module Pods_GerenciadorDependencias {
+  umbrella header "Pods-GerenciadorDependencias-umbrella.h"
+
+  export *
+  module * { export * }
+}
