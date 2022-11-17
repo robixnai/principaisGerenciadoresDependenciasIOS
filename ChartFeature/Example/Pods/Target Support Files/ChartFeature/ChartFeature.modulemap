@@ -1,0 +1,6 @@
+framework module ChartFeature {
+  umbrella header "ChartFeature-umbrella.h"
+
+  export *
+  module * { export * }
+}

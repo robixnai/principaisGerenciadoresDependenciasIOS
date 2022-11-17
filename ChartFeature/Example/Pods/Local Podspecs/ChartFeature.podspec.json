@@ -1,0 +1,39 @@
+{
+  "name": "ChartFeature",
+  "version": "0.1.0",
+  "summary": "A short description of ChartFeature.",
+  "description": "Feature para criação de Gráficos",
+  "homepage": "https://github.com/robixnai/ChartFeature",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "robixnai": "moreira_rob@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/robixnai/ChartFeature.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "ChartFeature/Classes/**/*",
+  "default_subspecs": "Release",
+  "dependencies": {
+    "Charts": [
+
+    ],
+    "TinyConstraints": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Release",
+      "vendored_frameworks": "Framework/ChartFeature.framework"
+    }
+  ],
+  "swift_version": "5.0"
+}

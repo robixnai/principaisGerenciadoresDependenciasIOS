@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'ChartFeature_Example' do
+  pod 'ChartFeature', :path => '../'
+
+  target 'ChartFeature_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
